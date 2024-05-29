@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .first {
+            margin: 91px 2px;
+            position: absolute;
+        }
+        .btn {
+            color: aliceblue;
+            background-color: darkblue;
+            margin: 20px;
+            padding: 9px;
+            width: 100px;
+            margin-left: 120px;
+        }
+        #a, #b, #c, #d, #e, #f, #g, #h {
+            width: 100px;
+        }
+        .img {
+            position: absolute;
+            left: 199px;
+            top: 84px;
+            padding: 20px;  
+        }
+        .img img {
+            height: 50px;
+            margin-bottom: 22px;  
+        }
+        .btn2{
+            color: aliceblue;
+            background-color: darkblue;
+            margin: 5px;
+            padding: 9px;
+            width: 100px;
+            position: absolute;
+            top: 80px;
+            left: 310px; 
+        }
+        .btn3{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 129px;
+            left: 310px; 
+        }
+        .btn4{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 177px;
+            left: 310px; 
+        }
+        .btn5{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 225px;
+            left: 310px; 
+        }
+        .btn6{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 272px;
+            left: 310px; 
+        }
+        .btn7{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 319px;
+            left: 310px; 
+        }
+        .btn8{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 366px;
+            left: 310px; 
+        }
+        .btn9{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 413px;
+            left: 310px; 
+        }
+        .btn10{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 461px;
+            left: 310px; 
+        }
+        .btn11{
+            color: aliceblue;
+            background-color: darkblue;
+            margin:5px;
+            padding:09px;
+            width:100px;
+            position: absolute;
+            top: 509px;
+            left: 310px; 
+        }
+
+
+        /* Styles for hover content */
+        .hover-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+            z-index: 1;
+            width: 200px;
+        }
+
+        /* Range colors */
+        .range1 {
+            border: 2px solid #ff0000; /* Red */
+            width: 100%;
+            height: 10px;
+        }
+
+        .range2 {
+            border: 2px solid #ffff00; /* Yellow */
+            width: 80%;
+            height: 10px;
+            margin-top: 5px;
+        }
+
+        .range3 {
+            border: 2px solid #00ff00; /* Green */
+            width: 50%;
+            height: 10px;
+            margin-top: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="first">
+        <button type="button" class="btn" id="hoverBtn">Research</button><br><br>
+        <button type="button" class="btn" id="a">Planning </button><br><br>
+        <button type="button" class="btn" id="b">Planning </button><br><br>
+        <button type="button" class="btn" id="c">Planning </button><br><br>
+        <button type="button" class="btn" id="d">Planning </button>
+    </div>
+    <div class="img">
+        <img src="https://i.ibb.co/4Pf0cTT/Untitled-Diagram2-drawio.png" alt="Untitled-Diagram2-drawio" border="0"><br><br>
+        <img src="https://i.ibb.co/4Pf0cTT/Untitled-Diagram2-drawio.png" alt="Untitled-Diagram2-drawio" border="0" id="img1"><br><br>
+        <img src="https://i.ibb.co/4Pf0cTT/Untitled-Diagram2-drawio.png" alt="Untitled-Diagram2-drawio" border="0" id="img2"><br><br>
+        <img src="https://i.ibb.co/4Pf0cTT/Untitled-Diagram2-drawio.png" alt="Untitled-Diagram2-drawio" border="0" id="img3"><br><br>
+        <img src="https://i.ibb.co/4Pf0cTT/Untitled-Diagram2-drawio.png" alt="Untitled-Diagram2-drawio" border="0" id="img4">
+    </div>
+    <div class="second">
+        <button type="button" class="btn2">Research</button><br>
+        <button type="button" class="btn3" id="e">Planning </button><br>
+        <button type="button" class="btn4" id="f">Planning </button><br>
+        <button type="button" class="btn5" id="g">Planning </button><br>
+        <button type="button" class="btn6" id="f">Planning </button><br>
+        <button type="button" class="btn7" id="g">Planning </button><br>
+        <button type="button" class="btn8" id="f">Planning </button><br>
+        <button type="button" class="btn9" id="g">Planning </button><br>
+        <button type="button" class="btn10" id="h">Planning </button><br>
+        <button type="button" class="btn11" id="h">Planning </button><br>
+    </div>
+
+    <!-- Hover content div -->
+    <div id="hoverContent" class="hover-content left">
+        <hr class="range1">
+        <hr class="range2">
+        <hr class="range3">
+        <p>Total Review: 10</p>
+        <p>Positive Review: 8</p>
+        <p>Negative Review: 2</p>
+        <p>Comment: "Great work!"</p>
+    </div>
+
+    <script>
+        // Show hover content when hovering over the hoverBtn
+        document.getElementById('hoverBtn').addEventListener('mouseover', function() {
+            document.getElementById('hoverContent').style.display = 'block';
+        });
+
+        // Hide hover content when mouse leaves hoverBtn
+        document.getElementById('hoverBtn').addEventListener('mouseleave', function() {
+            document.getElementById('hoverContent').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
